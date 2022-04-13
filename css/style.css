@@ -140,6 +140,15 @@ button:focus {
     align-items: center;
     border-radius: 50%;
 }
+.contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
+
+    color: var(--primary-text-color);
+}
 .social-links .social-link:hover,
 .social-links .social-link:focus {
     background-color: var(--hover-text-color);
@@ -169,11 +178,6 @@ button:focus {
 .partner-link:hover,
 .partner-link:focus {
     border: 1px solid var(--hover-text-color);
-}
-
-.partner-link:hover > .partner-logo,
-.partner-link:focus > .partner-logo {
-    fill: var(--hover-text-color);
 }
 
 .overlay{
@@ -312,15 +316,6 @@ margin-right: 8px;
 }
 .address-link {
     font-style: normal;
-}
-.contacts-nav .contacts-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    font-style: normal;
-
-    color: var(--primary-text-color);
 }
 .footer-section {
     font-weight: normal;
