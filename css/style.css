@@ -309,8 +309,8 @@ margin-right: 8px;
 }
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus,
-.contacts-nav .contacts-link:hover,
-.contacts-nav .contacts-link:focus{
+.contacts-nav .contacts-link:hover .contacts-icon,
+.contacts-nav .contacts-link:focus .contacts-icon{
     color: var(--hover-text-color);
     fill: var(--hover-text-color);
 }
