@@ -149,9 +149,13 @@ button:focus {
 
     color: var(--primary-text-color);
 }
-.social-links .social-link:hover,
-.social-links .social-link:focus {
+.social-link:hover,
+.social-link:focus {
     background-color: var(--hover-text-color);
+}
+.social-link:hover .social-icon,
+.social-link:focus .social-icon
+{
     fill: var(--primary-background-color);
 }
 .social-icon {
