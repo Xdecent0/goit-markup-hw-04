@@ -174,10 +174,13 @@ button:focus {
     justify-content: center;
     align-items: center;
 }
-
 .partner-link:hover,
 .partner-link:focus {
     border: 1px solid var(--hover-text-color);
+}
+.partner-link:hover .partner-logo,
+.partner-link:focus .partner-logo {
+    fill: var(--hover-text-color);
 }
 
 .overlay{
@@ -309,7 +312,7 @@ margin-right: 8px;
 }
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus,
-.contacts-nav .contacts-link:hover .contacts-icon,
+.contacts-nav .contacts-link:hover,
 .contacts-nav .contacts-link:focus .contacts-icon{
     color: var(--hover-text-color);
     fill: var(--hover-text-color);
