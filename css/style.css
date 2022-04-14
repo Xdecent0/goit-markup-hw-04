@@ -228,12 +228,12 @@ margin-right: 8px;
 }
 .footer-section > .container {
     display: flex;
+    align-items: baseline;
 }
 .footer-box {
     box-sizing: border-box;
 }
 .footer-link-box {
-    padding-top: 12px;
     margin-left: 70px;
 }
 .footer-link-list {
